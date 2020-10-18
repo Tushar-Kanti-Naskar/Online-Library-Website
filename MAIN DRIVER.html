@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<title>TUSHAR.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+p.inset {border-style: inset;
+	  border-color: green;}
+</style>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-pink w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="file:///C:/Users/TUSHAR/Desktop/library/student.html" class="w3-bar-item w3-button">STUDENTS PORTAL</a>
+  <a href="file:///C:/Users/TUSHAR/Desktop/library/BOOKS.html" class="w3-bar-item w3-button">LIST OF BOOKS</a>
+  <a href="file:///C:/Users/TUSHAR/Desktop/library/LOGIN.html" class="w3-bar-item w3-button">Library Rules</a>
+  <a href="file:///C:/Users/TUSHAR/Desktop/library/loaning.html" class="w3-bar-item w3-button">LOANING RULS</a>
+  <a href="file:///C:/Users/TUSHAR/Desktop/library/member.html" class="w3-bar-item w3-button">MEMBERSHIP CONDITION</a>
+  <a href="file:///C:/Users/TUSHAR/Desktop/library/pic.html" class="w3-bar-item w3-button">LIBRARY PICTURE</a>
+  <a href="file:///C:/Users/TUSHAR/Desktop/HTML/css.html" class="w3-bar-item w3-button">FULL CSS DESIGN</a>
+  <a href="file:///C:/Users/TUSHAR/Desktop/library/QUESTION.html" class="w3-bar-item w3-button">CBSE &ICSE ALL QUESTION</a>
+</div>
+
+<div id="main">
+
+<div class="w3-teal">
+  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>HOME PAGE</h1>
+  </div>
+</div>
+
+<img src="Journal.jpg" alt="RCCIIT" style="width:100%">
+
+<div class="w3-container">
+<p class="double" style="color:red;">A library is a curated collection of sources of information and similar resources, selected by experts and made accessible to a defined community for reference or borrowing, often in a quiet environment conducive to study. It provides physical or digital access to material, and may be a physical location or a virtual space, or both. A library's collection can include books, periodicals, newspapers, manuscripts, films, maps, prints, documents, microform, CDs, cassettes, videotapes, DVDs, Blu-ray Discs, e-books, audiobooks, databases, table games, video games and other formats. Libraries range widely in size up to millions of items. The word for "library" in many modern languages is derived from Ancient Greek ?????????? (bibliotheke), originally meaning bookcase, via Latin bibliotheca. </p>
+<p class="double" style="color:green;">The first libraries consisted of archives of the earliest form of writing?the clay tablets in cuneiform script discovered in Sumer, some dating back to 2600 BC. Private or personal libraries made up of written books appeared in classical Greece in the 5th century BC. In the 6th century, at the very close of the Classical period, the great libraries of the Mediterranean world remained those of Constantinople and Alexandria. The libraries of Timbuktu were also established around this time and attracted scholars from all over the world. </p>
+<p class="double" style="color:hotpink;">A library is organized for use and maintained by a public body, an institution, a corporation, or a private individual. Public and institutional collections and services may be intended for use by people who choose not to?or cannot afford to?purchase an extensive collection themselves, who need material no individual can reasonably be expected to have, or who require professional assistance with their research. In addition to providing materials, libraries also provide the services of librarians who are experts at finding and organizing information and at interpreting information needs. Libraries often provide quiet areas for studying, and they also often offer common areas to facilitate group study and collaboration. Libraries often provide public facilities for access to their electronic resources and the Internet. </p>
+<p class="double" style="color:blue;">Modern libraries are increasingly being redefined as places to get unrestricted access to information in many formats and from many sources. They are extending services beyond the physical walls of a building, by providing material accessible by electronic means, and by providing the assistance of librarians in navigating and analyzing very large amounts of information with a variety of digital resources. Libraries are increasingly becoming community hubs where programs are delivered and people engage in lifelong learning. </p>
+
+</div>
+
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+</body>
+</html>
